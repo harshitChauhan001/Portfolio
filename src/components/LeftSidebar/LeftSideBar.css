@@ -1,0 +1,36 @@
+
+.left-side-bar{
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    border-right: solid 1px #b2b2b2;
+    min-width: 15%;
+    position:absolute;
+    height: 91%;
+}
+
+.quick-access{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-top: 5px;
+    margin-right: 0px;
+}
+.quick-access>img{
+width: 19px;
+height:100%;
+padding-left: 8%;
+}
+.quick-access-options{
+    width: 80%;
+    padding-left: 21%;
+    display: flex;
+    gap: 2%;
+    font-size: 13px;
+}
+.quick-access-options>img{
+    width: 16px;
+    height: 16px;
+}
