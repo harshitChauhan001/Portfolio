@@ -27,7 +27,7 @@ function AboutMe() {
       </p>
       <p>
         For those brave enough to dive into the chaos, you can find the source
-        code on <strong>GitHub:</strong> <a href="https://github.com/harshitChauhan001">Peek into the madness</a>.
+        code on <strong>GitHub:</strong> <a href="https://github.com/harshitChauhan001/Portfolio">Peek into the madness</a>.
       </p>
     </div>
     </div>
