@@ -210,7 +210,7 @@ function App() {
       <div className='desktop'>
         <div className='icons-list'>
           {Lists.map((item) => (
-            <div className={`${item}`} key={item} onDoubleClick={(e) => handleIconClick(e, item)} ><img src={getImageSource(item)} alt={`${item} icon`} />{item}</div>
+            <div className={`${item}`} key={item} onDoubleClick={(e) => handleIconClick(e, item)} ><img className={`${item}`} onDoubleClick={(e) => handleIconClick(e, item)} src={getImageSource(item)} alt={`${item} icon`} />{item}</div>
           ))}
         </div>
 
